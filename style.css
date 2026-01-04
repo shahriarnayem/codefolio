@@ -1,5 +1,107 @@
 *{
-  font-family: "IBM Plex Mono", monospace;
   margin: 0;
   padding: 0;
+}
+
+body{
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+}
+
+header{
+  width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 16px;
+  margin: 20px auto;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+
+.logo{
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  line-height: 1em;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+header nav ul li{
+  padding: 8px 16px;
+  transition: .3s ease-in-out;
+  border-radius: 32px;
+}
+header nav ul li:hover{
+  background: #000000;
+  color:aliceblue;
+}
+
+.button{
+  background: #000;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 32px;
+  text-decoration: none;
+}
+
+.cta{
+  padding: 8px 16px;
+}
+
+.primery-button{
+  padding: 16px 48px;
+  margin-top: 16px;
+}
+
+section, .hero{
+  width: 1120px;
+  margin: 20px auto;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content{
+  width: 60%;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  
+}
+
+.hero-content h1{
+  font-size: 56px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+.hero-content p{
+  font-size: 20px;
+  list-style: 1.4em;
+}
+
+.hero-image img{
+  width: 100%;
+  border-radius: 32px;
+
 }
